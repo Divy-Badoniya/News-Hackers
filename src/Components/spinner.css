@@ -1,0 +1,16 @@
+.spinner
+{
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 3vw;
+    width: 3vw;
+    border: 0.5vw solid lightgrey;
+    border-top: 0.5vw solid black;
+    border-radius: 50%;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin{
+    0% {transform: rotate(-360deg);}
+}
